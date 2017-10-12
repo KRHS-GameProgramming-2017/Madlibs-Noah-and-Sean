@@ -1,6 +1,5 @@
 from Getter import *
 
-#noah was here
 
 def story1(debug= False):
 	if debug: print "--In story1 function--"
