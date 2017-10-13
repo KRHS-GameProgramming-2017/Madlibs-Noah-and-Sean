@@ -48,7 +48,27 @@ def getNumber(prompt, debug):
 def isSwear(word):
 	swearList = ["poop",
 				 "dumb",
-				 "stupid"]
+				 "stupid"
+                 "retard"
+                 "fuck"
+                 "dick"
+                 "dic"
+                 "sex"
+                 "ass"
+                 "pussy"
+                 "kys"
+                 "ZEB"
+                 "dylanmonnetespaghetii"
+                 "virgin"
+                 "penis"
+                 "god"
+                 "jesus"
+                 "cock"
+                 "cunt"
+                 "nigger"
+                 "niqqer"
+                 "nig"
+                 ]
 	if word.lower() in swearList:
 		return True
 	else:
