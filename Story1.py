@@ -20,7 +20,9 @@ def story1(debug= False):
     out += " the little boy didnt listen to " + person1
     out += " so " + person1
     out += " told him to go to " + place1
-    
-    
+    out += " once he got to " + place1
+    out += " he saw " + person2
+    out += " then " + person2
+    out += " killed him with a " + weapon1 
     
 	return out
