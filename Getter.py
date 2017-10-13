@@ -60,7 +60,15 @@ def isSwear(word):
                  "ZEB"
                  "dylanmonnetespaghetii"
                  "virgin"
-                 "penis"]
+                 "penis"
+                 "god"
+                 "jesus"
+                 "cock"
+                 "cunt"
+                 "nigger"
+                 "niqqer"
+                 "nig"
+                 ]
 	if word.lower() in swearList:
 		return True
 	else:
