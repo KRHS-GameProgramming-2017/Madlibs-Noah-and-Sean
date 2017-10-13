@@ -18,9 +18,10 @@ def story2(debug= False):
     out += " him/her the" + animal1
     out += " then ran away and  " + name1
     out += " became very " + noun1
-    out += " and began to " + noun2
-    out += " He then decided to " + action2
-    out += "  " + n
+    out += " and began to chase the " + animal1
+    out += " and  " + action3
+    out += " the  " + animal1
+    out += " Died from the  " + action3
     
     
     
