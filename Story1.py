@@ -4,11 +4,17 @@ from Getter import *
 def story1(debug= False):
     if debug: print "--In story1 function--"
     
-    friend1 = getWord("A Name: ", debug)
-    distance1 = getNumber("A Number: ", debug)
-    store1 = getWord("A Store: ", debug)
-    
-    out = ""
+    car1 = getWord("A Car: ", debug)
+    food1 = getWord("A Food: ", debug)
+    game1 = getWord("A Game: ", debug)
+    person1= getWord("A Person: ", debug)
+    word1= getWord("A Word: ", debug)
+    place1= getWord("A Place: ", debug)
+    person2= getWord("A Person: ", debug)
+    weapon1= getWord("A Weapon: ", debug)
+   
+   
+   
     out += "There once was a little boy who got in the wrong, " + car1
     out += ", He wanted some  " + food1
     out += " Once he got the " + food1
