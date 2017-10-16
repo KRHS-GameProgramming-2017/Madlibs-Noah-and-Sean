@@ -14,7 +14,7 @@ def story1(debug= False):
     weapon1= getWord("A Weapon: ", debug)
    
    
-   
+    out = ""
     out += "There once was a little boy who got in the wrong, " + car1
     out += ", He wanted some  " + food1
     out += " Once he got the " + food1
