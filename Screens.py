@@ -15,9 +15,9 @@ def menu(debug = False):
 	output = ""
 	output += "***************************************\n"
 	output += "*Main menu                            *\n"
-	output += "*1) A story                           *\n"
-	output += "*2)                                   *\n"
-	output += "*3)                                   *\n"
+	output += "*1) The Creepy Little Boy             *\n"
+	output += "*2) The Crazy Animal                  *\n"
+	output += "*3) The Weird Restaurant              *\n"
 	output += "*Q) Exit                              *\n"
 	output += "***************************************\n"
 	return output

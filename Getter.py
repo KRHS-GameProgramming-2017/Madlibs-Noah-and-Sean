@@ -29,7 +29,7 @@ def getWord(prompt, debug):
         response = raw_input(prompt)
         if isSwear(response):
             goodInput = False
-            print "Don't go using that type of language here"
+            print "Please dont swear thats not nice thanks"
         elif response == "":
             goodInput = False
             print "Type something"

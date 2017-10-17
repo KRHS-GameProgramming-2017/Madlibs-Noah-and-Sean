@@ -9,10 +9,10 @@ def story2(debug= False):
     animal1 = getWord("An animal: ", debug)
     action1 = getWord("An action: ", debug)
     feeling1 = getWord("A feeling: ", debug)
-    action2 = getWord("An action: ", debug)
     name2 = getWord("A friend: ", debug)
-    action2 = getWord("An action: ", debug)
     action3 = getWord("A actionword: ", debug)
+    
+    
     out = ""
     out += " One day " + name1
     out += " was on his way to  " + place1
@@ -25,9 +25,9 @@ def story2(debug= False):
     out += " became very " + feeling1
     out += " and began to chase the " + animal1
     out += " when his friend  " + name2
-    out += " came to  " + action3
-    out += " the animal when he   " + action2
-    out += " came to  " + action3
+    out += " came and  " + action3
+    out += " the animal when he   " + action3
+    out += " the animal it died "
     
     
     
