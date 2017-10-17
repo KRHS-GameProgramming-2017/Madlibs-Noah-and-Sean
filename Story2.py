@@ -25,7 +25,7 @@ def story2(debug= False):
     out += " became very " + feeling1
     out += " and began to chase the " + animal1
     out += " when his friend  " + name2
-    out += " came to  " + action3
+    out += " " + action3
     out += " the animal when he   " + action2
     out += " came to  " + action3
     

@@ -16,12 +16,12 @@ def story1(debug= False):
    
     out = ""
     out += "There once was a little boy who got in the wrong, " + car1
-    out += ", He wanted some  " + food1
+    out += ",He wanted some " + food1
     out += " Once he got the " + food1
-    out += "he left and decided to eat the " + food1
+    out += " he left and decided to eat the " + food1
     out += " after he ate it he went home and played " + game1
     out += " as he was playing " + game1
-    out += " his " + person1
+    out += ", " + person1
     out += " came up and said " + word1
     out += " the little boy didnt listen to " + person1
     out += " so " + person1
