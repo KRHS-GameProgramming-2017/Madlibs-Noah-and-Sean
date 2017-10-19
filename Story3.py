@@ -2,7 +2,7 @@ from Getter import *
 
 
 def story3(debug= False):
-    if debug: print "--In story1 function--"
+    if debug: print "--In story3 function--"
     
     name1 = getWord("A Name: ", debug)
     restaurant1 = getWord("A Restaurant: ", debug)
@@ -11,17 +11,19 @@ def story3(debug= False):
     feeling1= getWord("A Feeling: ", debug)
     action1= getWord("An Action: ", debug)
     feeling2= getWord("A Feeling: ", debug)
-    action2= getWord("A Fighting example (hit): ", debug)
+    weapon1= getWord("A Weapon: ", debug)
+    out  = ""
     out += " Good afternoon said " + name1
     out += " to Billy, as he was walking towards " + restaurant1
     out += " when Billy arrived he asked for some " + food1
     out += " The " + food1
-    out += " was very delicious but not very filling so billy asked for some  " + food2
-    out += " When the   " + food2
-    out += " arrived Billy was  " + feeling1
-    out += " so he decided to   " + action1
+    out += " was very delicious but not very filling so billy asked for some " + food2
+    out += " When the " + food2
+    out += " arrived Billy was " + feeling1
+    out += " so he decided to " + action1
     out += " when he " + action1
     out += " The waiter chased him this caused billy to get even more " + feeling2
-    out += " The waiter started running faster in faster, when he finally caught up he " + action2
-    out += " billy had died to the " + action2
-    out += " THE END " + end1
+    out += " The waiter started running faster and faster, when he finally caught up he killed him with a " + weapon1
+
+    
+    return out

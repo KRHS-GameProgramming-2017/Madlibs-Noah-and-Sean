@@ -2,7 +2,7 @@ from Getter import *
 
 
 def story2(debug= False):
-    if debug: print "--In story1 function--"
+    if debug: print "--In story2 function--"
     
     name1 = getWord("A Name: ", debug)
     place1 = getWord("A place: ", debug)
