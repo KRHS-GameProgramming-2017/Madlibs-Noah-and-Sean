@@ -13,7 +13,7 @@ def getMenuResponse(debug = False):
             response == "story 2"):
                 goodInput = True
                 response = "2"
-                elif (response == "3" or 
+        elif (response == "3" or 
             response == "three" or 
             response == "story 3"):
                 goodInput = True
