@@ -20,5 +20,5 @@ def story3(debug= False):
     out += " arrived Billy was  " + feeling1
     out += " so he decided to   " + action1
     out += " when he   " + action1
-    out += " The waiter chased him this caused billy to get even more   " + feeling2
+    out += " The waiter chased him this caused billy to get even more " + feeling2
     
