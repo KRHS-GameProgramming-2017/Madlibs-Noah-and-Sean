@@ -67,7 +67,7 @@ def isSwear(word):
                  "ass",
                  "pussy",
                  "kys",
-                 "ZEB",
+                 "zeb",
                  "dylanmonnetespaghetii",
                  "virgin",
                  "penis",
