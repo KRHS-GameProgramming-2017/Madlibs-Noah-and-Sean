@@ -18,6 +18,11 @@ def getMenuResponse(debug = False):
             response == "story 3"):
                 goodInput = True
                 response = "3"
+        elif (response == "0" or 
+            response == "zero" or 
+            response == "story 0"):
+                goodInput = True
+                response = "0"
         elif (response == "q" or 
               response == "quit" or 
               response == "exit"):
@@ -100,10 +105,7 @@ def isSwear(word):
                  "shit"
                  "slut"
                  "whore"
-                 "fucked"
-                 
-                 
-                 ]
+                 "fucked"]
     if word.lower() in swearList:
         return True
     else:
