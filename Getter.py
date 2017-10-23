@@ -61,7 +61,7 @@ def getNumber(prompt, debug):
     return response 
 def getWeapon(prompt, debug):
     if debug: print "--In getWeapon function--"
-    WeaponList =["gun",
+    weaponList =["gun",
                 "knife",
                 "bat",
                 "bottle",
@@ -72,17 +72,63 @@ def getWeapon(prompt, debug):
                 "sword",
                 "rope",
                 "bow"]
-    
+                
     goodInput = False
     while not goodInput:
         response = raw_input(prompt)
-        goodInput = True    
-        if response in Weaponlist:
+        if response in weaponList:
             goodInput = True
         else:
             print "whats that weapon"
-        return response 
+            goodInput = False
+    return response 
         
+def getfeeling(prompt, debug):
+    if debug: print "--In get feeling function--"
+    feelingList =["sad",
+                "happy",
+                "angry",
+                "mad",
+                "depressed",
+                "embarrassed",
+                "scared",
+                "hopeful",
+                "bored",
+                "triggered",
+                "salty"]
+    goodInput = False
+    while not goodInput:
+        response = raw_input(prompt)
+        if response in feelingList:
+            goodInput = True
+        else:
+            print "whats that feeling"
+            goodInput = False
+    return response
+   
+   
+    def getaction(prompt, debug):
+    if debug: print "--In get action function--"
+    actionList =["sad",
+                "happy",
+                "angry",
+                "mad",
+                "depressed",
+                "embarrassed",
+                "scared",
+                "hopeful",
+                "bored",
+                "triggered",
+                "salty"]
+    goodInput = False
+    while not goodInput:
+        response = raw_input(prompt)
+        if response in feelingList:
+            goodInput = True
+        else:
+            print "whats that feeling"
+            goodInput = False
+    return response
 def isSwear(word):
     swearList = ["poop",
                  "dumb",

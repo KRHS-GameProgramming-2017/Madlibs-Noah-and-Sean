@@ -5,10 +5,10 @@ def story2(debug= False):
     if debug: print "--In story2 function--"
     
     name1 = getWord("A Name: ", debug)
-    place1 = getWord("A place6: ", debug)
+    place1 = getWord("A place: ", debug)
     animal1 = getWord("An animal: ", debug)
     action1 = getWord("An action: ", debug)
-    feeling1 = getWord("A feeling: ", debug)
+    feeling1 = getfeeling("A feeling: ", debug)
     name2 = getWord("A friend: ", debug)
     action3 = getWord("A actionword: ", debug)
     
