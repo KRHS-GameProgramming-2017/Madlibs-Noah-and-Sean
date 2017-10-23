@@ -11,7 +11,7 @@ def story1(debug= False):
     word1= getWord("A Word: ", debug)
     place1= getWord("A Place: ", debug)
     person2= getWord("A Person: ", debug)
-    weapon1= getWord("A Weapon: ", debug)
+    weapon1= getWeapon("A Weapon: ", debug)
    
    
     out = ""

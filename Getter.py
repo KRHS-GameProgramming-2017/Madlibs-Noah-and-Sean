@@ -59,7 +59,30 @@ def getNumber(prompt, debug):
                 goodInput = False
                 print letter + " is not a number"
     return response 
-            
+def getWeapon(prompt, debug):
+    if debug: print "--In getWeapon function--"
+    WeaponList =["gun",
+                "knife",
+                "bat",
+                "bottle",
+                "fist",
+                "bomb",
+                "chainsaw",
+                "wrench",
+                "sword",
+                "rope",
+                "bow"]
+    
+    goodInput = False
+    while not goodInput:
+        response = raw_input(prompt)
+        goodInput = True    
+        if response in Weaponlist:
+            goodInput = True
+        else:
+            print "whats that weapon"
+        return response 
+        
 def isSwear(word):
     swearList = ["poop",
                  "dumb",
