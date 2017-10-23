@@ -5,7 +5,7 @@ def story2(debug= False):
     if debug: print "--In story2 function--"
     
     name1 = getWord("A Name: ", debug)
-    place1 = getWord("A place: ", debug)
+    place1 = getWord("A place6: ", debug)
     animal1 = getWord("An animal: ", debug)
     action1 = getWord("An action: ", debug)
     feeling1 = getWord("A feeling: ", debug)

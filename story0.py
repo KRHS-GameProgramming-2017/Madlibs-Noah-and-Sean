@@ -29,6 +29,8 @@ def story0(debug=False):
               | |   | |                 | || |                
               | |   | |                 | || |                
               |\\   |\\                 |\\|\\ dp   
+              
+              
               """
     output = image
     return output
