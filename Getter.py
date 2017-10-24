@@ -107,28 +107,30 @@ def getfeeling(prompt, debug):
     return response
    
    
-    def getaction(prompt, debug):
+def getaction(prompt, debug):
     if debug: print "--In get action function--"
-    actionList =["sad",
-                "happy",
-                "angry",
-                "mad",
-                "depressed",
-                "embarrassed",
-                "scared",
-                "hopeful",
-                "bored",
-                "triggered",
-                "salty"]
+    actionList =["hit",
+                "punched",
+                "kicked",
+                "ran",
+                "watched",
+                "read",
+                "helped",
+                "fixed",
+                "killed",
+                "made",
+                "wrote"]
     goodInput = False
     while not goodInput:
         response = raw_input(prompt)
-        if response in feelingList:
+        if response in actionList:
             goodInput = True
         else:
-            print "whats that feeling"
+            print "whats that action"
             goodInput = False
     return response
+    
+    
 def isSwear(word):
     swearList = ["poop",
                  "dumb",
